@@ -2,10 +2,10 @@ $(document).ready(function () {
     var workSlider = $('.work-slider');
 
     workSlider.slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: true,
-        infinite: true,
+        infinite: false,
         prevArrow: '.work-btn-Prev',
         nextArrow: '.work-btn-Next',
         variableWidth: true,

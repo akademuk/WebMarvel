@@ -1,14 +1,14 @@
 $(document).ready(function () {
-    var whatSlider = $('.what-slider');
+    var workSlider = $('.testimonials-slider');
 
-    whatSlider.slick({
-        slidesToShow: 4,
+    workSlider.slick({
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: true,
-        infinite: false,
-        prevArrow: '.what-btn-prev',
-        nextArrow: '.what-btn-next',
-        variableWidth: true,
+        infinite: true,
+        prevArrow: '.testimonials-btn-Prev',
+        nextArrow: '.testimonials-btn-Next',
+
         responsive: [
             {
                 breakpoint: 1200,
@@ -19,7 +19,6 @@ $(document).ready(function () {
                     infinite: true,
                     dots: true,
                     variableWidth: true,
-                    appendDots: $('.howWorkSliderdots')
                 }
             },
             {
@@ -29,7 +28,6 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     centerMode: false,
                     dots: true,
-                    appendDots: $('.howWorkSliderdots')
                 }
             },
             {
@@ -39,10 +37,69 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     centerMode: false,
                     dots: true,
-                    appendDots: $('.howWorkSliderdots')
                 }
             }
         ]
     });
-
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
